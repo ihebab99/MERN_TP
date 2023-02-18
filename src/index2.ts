@@ -1,11 +1,11 @@
-import express from "express";
+import express, { Request, Response, NextFunction } from "express";
 
 //const express = require('express');
 const app=express();
 
 app.use(express.json());
 
-const verif=(req,res,next)=>{
+const verif=(req:Request,res:Response, next: NextFunction)=>{
     var num1=Number(req.params.num1)
     var num2=Number(req.params.num2)
     if (num2==0 ) {
