@@ -5,7 +5,7 @@
   "main": "main.js",
   
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only src/index3.ts"
+    "start": "ts-node-dev --respawn --transpile-only src/main.ts"
   },
   "author": "",
   "license": "MIT",
